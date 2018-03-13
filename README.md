@@ -1,15 +1,20 @@
-= docker-compose examples
+docker-compose examples
+===========
 
+## Create network
+
+```
 docker network create webproxy
+```
 
-== Run docker-compose "ingress"
+## Run docker-compose "ingress"
 
 ```
 cd docker-compose-ingress
 docker-compose -f docker-compose.yaml up -d
 ```
 
-== Run hello-world
+## Run hello-world
 
 ```
 cd hello-world
